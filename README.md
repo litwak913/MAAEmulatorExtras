@@ -14,6 +14,12 @@ Mumu 模拟器提供的额外接口，支持无损截图、触控等，相较 ad
 
 需动态加载 `leidian/LDPlayer9/ldopengl64.dll`
 
+## wlr
+
+基于 wlroots 的合成器提供的额外接口，支持无损截图、触控等，相较 adb 等方式速度有大幅提升，仅适用于 Linux。
+
+需动态加载 `libwayland-client.so`
+
 ## 声明
 
 本仓库为 `No License` 开源，仓库中所有文件由对应的各模拟器厂商保留一切权利。
